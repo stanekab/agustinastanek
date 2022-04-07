@@ -1,0 +1,470 @@
+
+.logoclamor {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 100px;
+}
+
+img.logoclamor {
+    width: 100px;
+    height: 100px;
+    align-self: center;   
+    padding: 0 10px 0 10px;
+}
+
+.home {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+
+.nosotros {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+ 
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+    background-color: rgb(206, 137, 124);
+    padding: 40px 40px;
+    width: inherit;
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+
+.header {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*transform es para que se inclinen los bordes, alargarlos, etc...*/
+/*border-radius es para hacer redondos los bordes*/
+
+.header li {
+    width: 85px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    transform: skew(-20deg);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .header li a{
+    text-decoration: none;
+    color: black;
+    }
+
+.inicio {
+    text-decoration: none;
+}
+
+
+.historias-container {
+    display: flex;
+    justify-content: center;
+}
+
+.historias-lista {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center
+}
+
+
+.historia1 {
+    transition: transform .2s; 
+    width: 50%;
+}
+ 
+.historia1:hover {
+    transform: scale(1.5); 
+}
+
+
+.historia2 {
+    transition: transform .2s; 
+    width: 50%;
+}
+ 
+.historia2:hover {
+    transform: scale(1.5); 
+}
+
+.historia3 {
+    transition: transform .2s; 
+    width: 50%;
+}
+ 
+.historia3:hover {
+    transform: scale(1.5); 
+}
+
+.historia4 {
+    transition: transform .2s; 
+    width: 50%;
+}
+ 
+.historia4:hover {
+    transform: scale(1.5); 
+}
+
+.twitterlogo {
+    width: 40px;
+}
+
+.instalogo {
+    width: 30px;
+}
+
+.facelogo {
+    width: 40px;
+}
+
+.logoclamor2 {
+    width: 60px;
+    display: flex;
+    align-self: center;   
+}
+
+.pie-container {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+
+.pie {
+    list-style: none;
+    background-color: rgb(206, 137, 124);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pie2 {
+    list-style: none;
+    display: flex;
+    align-items: left;
+}
+
+footer {
+    width: 100%;
+  }
+
+.noticias {
+    background-color: bisque;
+}
+
+  .textoclamor {
+    margin: 40px;
+    padding-left: 20px;
+    background-color: rgb(172, 78, 78);
+    color: white;
+    width: 70%;
+}
+
+.textoautora {
+    margin: 15px;
+    padding: 15px;
+    font-style: italic;
+    background-color: rgb(172, 78, 78);
+    color: white;
+    width: 50%;
+}
+
+
+.boton1 {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .boton1:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+  }
+  
+.boton2 {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+.boton2:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+  }
+
+.boton3 {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+.boton3:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+  }
+
+  
+.boton4 {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+.boton4:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+  }
+
+.perfilsinea {
+    transition: transform .2s; 
+    width: 10;
+}
+ 
+.perfilsinea:hover {
+    transform: scale(1.5); 
+}
+
+.perfilkrotalia {
+    transition: transform .2s; 
+    width: 10;
+}
+ 
+.perfilkrotalia:hover {
+    transform: scale(1.5); 
+}
+
+.perfiloliver {
+    transition: transform .2s; 
+    width: 10;
+}
+ 
+.perfiloliver:hover {
+    transform: scale(1.5); 
+}
+
+.perfilkhada {
+    transition: transform .2s; 
+    width: 10;
+}
+ 
+.perfilkhada:hover {
+    transform: scale(1.5); 
+}
+.perfilomen {
+    transition: transform .2s; 
+    width: 10;
+}
+ 
+.perfilomen:hover {
+    transform: scale(1.5); 
+}
+
+.perfildoba {
+    transition: transform .2s; 
+    width: 10;
+}
+ 
+.perfildoba:hover {
+    transform: scale(1.5); 
+}
+
+.perfilmirio {
+    transition: transform .2s; 
+    width: 10;
+}
+ 
+.perfilmirio:hover {
+    transform: scale(1.5); 
+}
+
+.perfilpiero {
+    transition: transform .2s; 
+    width: 10;
+}
+ 
+.perfilpiero:hover {
+    transform: scale(1.5); 
+}
+
+
+.grilla-queesclamor-imagen { 
+    margin: 50px;
+    grid-area: imagen;
+    padding: 0 20px 0 0;}
+.grilla-queesclamor-titulo { grid-area: titulo; }
+.grilla-queesclamor-texto { 
+    grid-area: texto;     
+    margin: 0px;
+    padding: 0px;
+    color: #000000; }
+
+.grilla-queesclamor {
+   padding: 20px 0 0 20px;
+   display: grid;
+   grid-template-areas:
+     "imagen titulo"
+     "imagen texto";
+       gap: 10px;
+       padding: 0 50px 0 50px;
+}
+
+.grilla-autor-imagen { 
+    grid-area: autor-imagen;
+    padding: 0 20px 0 0;}
+.grilla-autor-titulo { grid-area: autor-titulo; }
+.grilla-autor-texto { 
+    grid-area: autor-texto;     
+    margin: 0px;
+    padding: 0px;
+    color: #000000; }
+.grilla-autor-principales { 
+    grid-area: autor-principales;     
+    margin: 0px;
+    padding: 0px;
+    color: #000000; }
+.grilla-autor-personaje1 { grid-area: autor-personaje1; }
+.grilla-autor-personaje2 { grid-area: autor-personaje2; }
+.grilla-autor-personaje3 { grid-area: autor-personaje3; }
+.grilla-autor-personaje4 { grid-area: autor-personaje4; }
+.grilla-autor {
+   padding: 20px 0 0 20px;
+   display: grid;
+   grid-template-areas:
+     "autor-titulo autor-titulo autor-titulo autor-titulo autor-titulo"
+     "autor-imagen autor-texto autor-texto autor-texto autor-texto"
+     "autor-imagen autor-principales autor-principales autor-principales autor-principales"
+     "autor-imagen autor-personaje1 autor-personaje2 autor-personaje3 autor-personaje4"
+     ;
+       gap: 10px;
+       padding: 0 50px 0 50px;
+}
+
+.bannernosotros {
+    width: 70%;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "sectionA sectionA sectionA sectionA"
+    "sectionB sectionB sectionB sectionB"
+    "footer footer footer footer"
+    ;
+}
+
+header {
+    grid-area: header
+}
+
+.sectionA {
+    background-color: bisque;
+    grid-area: sectionA;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.sectionB {
+    background-color: bisque;
+    grid-area: sectionB;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.noticia1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: #e74c3c;
+    padding: 10px;
+}
+
+.noticia2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: #e74c3c;
+    padding: 10px;
+}
+
+.noticia3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: #e74c3c;
+    padding: 10px;
+}
+
+.noticia4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: #e74c3c;
+    padding: 10px;
+}
+
+.noticia5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: #e74c3c;
+    padding: 10px;
+}
+
+.noticia6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: #e74c3c;
+    padding: 10px;
+}
+
+.tienda {
+    background-color: bisque;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedorA {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav sectionC sectionC sectionC"
+    "nav sectionD sectionD sectionD"
+    "nav sectionE sectionE sectionE"
+    "footer footer footer footer";
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+.sectionC {
+    grid-area: sectionC;
+    float: center;
+}
+
+.sectionD {
+    grid-area: sectionD;
+    float: center;
+}
+
+.sectionE {
+    grid-area: sectionE;
+    float: center;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+}
